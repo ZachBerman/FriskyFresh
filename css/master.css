@@ -20,15 +20,15 @@ body {
 
 @media(min-width:768px) {
     body {
-    padding-top: 0 auto; /*required padding for .navbar-fixed-top. Change if height of navigation changes. */*/
-    overflow-x: hidden; 
+      padding-top: 0 auto; /*required padding for .navbar-fixed-top. Change if height of navigation changes. */
+      overflow-x: hidden; 
     }
 
     .navbar-fixed-top .navbar-brand {
-        padding: 0 0;
+      padding: 0 0;
     }
     .navbar-inverse {
-        box-shadow: 0px 1px 15px #2a2a2a;
+      box-shadow: 0px 1px 15px #2a2a2a;
     }
 }
 
@@ -102,3 +102,4 @@ footer {
 ul {
   list-style-type: none;
 }
+
