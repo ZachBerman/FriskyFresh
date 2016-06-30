@@ -23,7 +23,6 @@ body {
       padding-top: 0 auto; /*required padding for .navbar-fixed-top. Change if height of navigation changes. */
       overflow-x: hidden; 
     }
-
     .navbar-fixed-top .navbar-brand {
       padding: 0 0;
     }
@@ -101,5 +100,36 @@ footer {
 
 ul {
   list-style-type: none;
+}
+
+.send {
+  width: 100%;
+  background: gray;
+}
+
+.contact p {
+  font-size: 18px;
+  color: gray;
+}
+
+.contact h3, h2 {
+  color: gray;
+}
+
+.input {
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    width: 100%;
 }
 
