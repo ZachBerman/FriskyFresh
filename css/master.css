@@ -51,6 +51,20 @@ body {
   .AKtoUT {
     font-size: 45px;
   }
+  .intro {
+    background: url('../img/lhouseMobile.jpg') !important; 
+    background-size: 100% 100% !important; 
+    height: 500px !important;
+    /*padding-top: 0 auto;*/
+    /*margin: 0 auto;*/
+  }
+  .intro h1 {
+    font-size: 35px;
+  }
+
+  .intro h2 {
+    font-size: 22px;
+  }
 }
 
 .navbar-inverse {
@@ -97,7 +111,7 @@ h4 {
   border-radius: 10px;
 }
 
-.intro {
+.intro{
     background: url('../img/lhouse.JPG') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -191,6 +205,7 @@ ul {
 
 .story {
   font-size: 24px;
+  text-align: justify;
 }
 
 .storyDiv {
