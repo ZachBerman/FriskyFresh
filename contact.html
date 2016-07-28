@@ -8,7 +8,7 @@
     <meta name="msapplication-TileImage" content="/path/to/favicon-144.png">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -28,7 +28,7 @@
   </head>
 
   <body>
-    <main class="Site-content">
+    <main class="site-content">
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,73 +59,77 @@
           </div>
         </div>
       </nav>
-      <div class="contact">
-        <div class="col-sm-offset-1 col-sm-4 text-center">
-          <br />
-          <br />
-          <img src="img/FFFlogo.png" alt="FriskyFreshFish">
-          <br />
-          <br />
-          <br />
-          <p>Dan Curran</p>
-          <p>7604 S Birch St.</p>
-          <p>Midvale, UT 84047</p>
-          <p>(815) 739-0394</p>
-          <p><a href="mailto:friskyfreshfishslc@gmail.com">friskyfreshfishslc@gmail.com</a>
-        </div>
-        <div class="col-sm-offset-1 col-sm-4">
-          <br />
-          <h2 class="text-center"><i>Send us a note!</i></h2>
-          <form class= "cmxform" id="commentForm" method="POST" action="https://formspree.io/friskyfreshfishslc@gmail.com">
-            <h3>Name</h3>
-              <input type="text" name="name" class="input" required>
-            <h3>Email address</h3>
-              <input type="email" name="_replyto" class="input" required>
-            <h3>Message</h3>
-              <textarea type ="message" name="message" rows="10" cols="100" class="input" required></textarea>
-              <br />
-              <br />
-              <input type="submit" value="SEND" class="btn btn-lg-success send">
-              <input type="hidden" name="_next" value="#" />
-          </form>
-          <br />
+      <div class="row">
+        <div class="contact">
+          <div class="col-sm-offset-1 col-sm-4 text-center">
+            <br />
+            <br />
+            <img src="img/FFFlogo.png" alt="FriskyFreshFish">
+            <br />
+            <br />
+            <br />
+            <h3>Dan Curran</h3>
+            <h3>7604 S Birch St.</h3>
+            <h3>Midvale, UT 84047</h3>
+            <h3>(815) 739-0394</h3>
+            <h3><a href="mailto:friskyfreshfishslc@gmail.com">friskyfreshfishslc@gmail.com</a></h3>
+          </div>
+          <div class="col-sm-offset-1 col-sm-4">
+            <br />
+            <h2 class="text-center"><i>Send us a note!</i></h2>
+            <form class= "cmxform" id="commentForm" method="POST" action="https://formspree.io/friskyfreshfishslc@gmail.com">
+              <h3>Name</h3>
+                <input type="text" name="name" class="input" required>
+              <h3>Email address</h3>
+                <input type="email" name="_replyto" class="input" required>
+              <h3>Message</h3>
+                <textarea type ="message" name="message" rows="10" cols="100" class="input" required></textarea>
+                <br />
+                <br />
+                <input type="submit" value="SEND" class="btn btn-lg-success send">
+                <input type="hidden" name="_next" />
+            </form>
+            <br />
+          </div>
         </div>
       </div>
     </main>
     <footer>
-      <div class="foot-links col-xs-6 text-center">
-        <ul>
-          <li>
-              <h4>NAVIGATION</h4>
-          </li>
-          <li>
-              <a href="index.html">HOME</a>
-          </li>
-          <li>
-              <a href="about.html">ABOUT</a>
-          </li>
-          <li>
-              <a href="pricing.html">PRICING</a>
-          </li>
-          <li>
-              <a href="contact.html">CONTACT</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-xs-6 text-center">
-        <h4>SOCIAL MEDIA</h4>
-        <a href="https://www.facebook.com/Friskyfreshfishslc/?fref=ts">
-        <img src = "img/facebook_64.png" alt="facebook">
-        </a>
-        <a href="https://www.instagram.com/friskyfreshfish/?hl=en">
-        <img src = "img/instagram_64.png" alt="Instagram">
-        </a>
+      <div class="row">
+        <div class="foot-links col-xs-6 text-center">
+          <ul>
+            <li>
+                <h4>NAVIGATION</h4>
+            </li>
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="pricing.html">PRICING</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-6 text-center">
+          <h4>SOCIAL MEDIA</h4>
+          <a href="https://www.facebook.com/Friskyfreshfishslc/?fref=ts">
+          <img src = "img/facebook_64.png" alt="facebook">
+          </a>
+          <a href="https://www.instagram.com/friskyfreshfish/?hl=en">
+          <img src = "img/instagram_64.png" alt="Instagram">
+          </a>
+        </div>
       </div>
     </footer>
     
-    <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/master.js"></script>
   </body>
 </html>
